@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "yaml.schemas": {
+        "kubernetes://schema/v1%40service": "file:///c%3A/Users/LeNgo/assignment3/gitlab/backend.yaml"
+    }
+}
