@@ -19,6 +19,15 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: 3000
+          env:
+            - name: DB_USER
+              value: {{ .Values.env.pg_user }}
+            - name: DB_HOST
+              value: {{ .Values.env.db_host }}
+            - name: DB_NAME
+              value: {{ .Values.env.db_name }}
+            - name: DB_PASSWORD
+              value: {{ .Values.env.pg_pass }}  
 
 
             

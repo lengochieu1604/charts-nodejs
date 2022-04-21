@@ -31,3 +31,9 @@ ingress:
   #  - secretName: chart-example-tls
   #    hosts:
   #      - chart-example.local
+
+env:
+    pg_user: adminpsql@psqlserverlengochieu1356
+    db_host: psqlserverlengochieu1356.postgres.database.azure.com
+    db_name: postgres
+    pg_pass: Azure@123
